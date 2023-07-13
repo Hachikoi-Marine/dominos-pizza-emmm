@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  background-color: rgba(45, 45, 255, 0.8);
+  color: white;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 7px 13px;
+}
+
+a:hover {
+  color: rgb(250, 64, 64);
+  text-decoration: underline;
+}
+
+body {
+  padding-top: 3rem;
+  background-color: #fefefe;
+  color: #232323;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo {
+  width: 4rem;
+}
+
+.op-list {
+  margin-top: 2rem;
+}
+
+.op-list li {
+  gap: 7px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  margin-top: 5rem;
+}
+
+img {
+  border-radius: 5px;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+#pizzas {
+  margin: 4rem 0;
+}
+
+#pizzas h2 {
+  margin-bottom: 2rem;
+}
+
+.frame {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5rem;
+  height: 10vh;
+  background-color: rgba(45, 45, 255, 1);
+  color: #fefefe;
+  padding-top: 1rem;
+}
+
+footer img {
+  width: 30px;
+}
+
+footer ul {
+  background-color: rgba(45, 45, 255, 1);
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ads h2 {
+  margin-bottom: 2rem;
+}
+
+.history {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.history h2 {
+  margin-bottom: 2rem;
+}
